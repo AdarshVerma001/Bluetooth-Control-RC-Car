@@ -1,0 +1,11 @@
+Component	Arduino Pin
+HC-05 TX →	D2 (SoftwareSerial RX)
+HC-05 RX ←	D3 (via voltage divider, 1kΩ+2kΩ)
+L298N ENA	D5 (PWM, left motor speed)
+L298N IN1, IN2	D6, D7 (left motors)
+L298N IN3, IN4	D8, D9 (right motors)
+L298N ENB	D10 (PWM, right motor speed)
+Headlight	D12
+Taillight	D13
+Buzzer	D4
+Voltage sensor OUT	A0
